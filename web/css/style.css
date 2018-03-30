@@ -1,11 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
 
 body {
-  background: url(images/bg.png); 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url('images/bg.png');
   font-family: 'Roboto', sans-serif;
 }
 
