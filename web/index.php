@@ -91,7 +91,6 @@ if(!isset($_SESSION['username'])) {
     <body>
 
       <div class="login">
-      <img src="images/spy.png"><br>
     	<h1>Login</h1>
         <form method="POST" action="index.php">
         	<input type="text" name="username" placeholder="Username" required="required" /><br>
