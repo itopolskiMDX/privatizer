@@ -11,6 +11,7 @@ if(!isset($_SESSION['username'])) {
     	while ($row = $result->fetch_assoc()) {
         $_SESSION['username'] = $user;
         $_SESSION['id'] = $row['id'];
+        $_SESSION['email'] = $row['email'];
         header('Location: index.php');
       }
     }
@@ -37,7 +38,7 @@ if(!isset($_SESSION['username'])) {
         </div>
 
         <div class="form">
-          <div class="thumbnail"><img src="images/spy.png"/></div>
+          <div class="thumbnail"><img src="assets/img/spy.png"/></div>
           <form class="register-form" method="POST" action="index.php">
             <input type="text" name="username" placeholder="name"/>
             <input type="password" name="password" placeholder="password"/>
@@ -127,8 +128,8 @@ if(!isset($_SESSION['username'])) {
                 <!-- sidebar menu start-->
                 <ul class="sidebar-menu" id="nav-accordion">
 
-                	  <p class="centered"><a href="profile.html"><img src="assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
-                	  <h5 class="centered">Marcel Newman</h5>
+                	  <p class="centered"><a href="profile.html"><img src="assets/img/spy.png" class="img-circle" width="60"></a></p>
+                	  <h5 class="centered">'.$_SESSION['email'].'</h5>
 
                     <li class="mt">
                         <a class="active" href="index.php">
