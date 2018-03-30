@@ -23,7 +23,7 @@ if(!isset($_SESSION['username'])) {
 
       <meta charset="UTF-8">
 
-      <title>CodePen - Log-in</title>
+      <title>Privatizer - Log-in</title>
 
       <link rel="stylesheet" href="http://codepen.io/assets/libs/fullpage/jquery-ui.css">
 

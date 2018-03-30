@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100);
 
 body {
-  background: url('images/bg.png');
+  background-image: url('images/bg.png');
   font-family: 'Roboto', sans-serif;
 }
 
