@@ -34,7 +34,7 @@ if(!isset($_SESSION['username'])) {
     <body>
 
       <div class="login-card">
-        <img src="images/spy.png"><br>
+        <img src="images/spy.png" style="width: 200px; marigin: 0 auto;"><br>
         <h1>Log-in</h1><br>
       <form method="POST" action="index.php">
         <input type="text" name="username" placeholder="Username">
