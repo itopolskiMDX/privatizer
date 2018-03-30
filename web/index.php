@@ -20,7 +20,7 @@ if(!isset($_SESSION['username'])) {
 
         <head>
           <meta charset="UTF-8">
-          <title>PPrivatizer - Login</title>
+          <title>Privatizer - Login</title>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
           <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900">
           <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
@@ -59,6 +59,6 @@ if(!isset($_SESSION['username'])) {
     ');
   }
 } else {
-  echo("Logged in");
+  include("index_content.php");
 }
 ?>
