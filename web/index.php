@@ -37,7 +37,7 @@ if(!isset($_SESSION['username'])) {
         </div>
 
         <div class="form">
-          <div class="thumbnail"><img src="images/bg.png"/></div>
+          <div class="thumbnail"><img src="images/spy.png"/></div>
           <form class="register-form" method="POST" action="index.php">
             <input type="text" name="username" placeholder="name"/>
             <input type="password" name="password" placeholder="password"/>
@@ -49,7 +49,7 @@ if(!isset($_SESSION['username'])) {
             <input type="text" name="username" placeholder="name"/>
             <input type="password" name="password" placeholder="password"/>
             <button>login</button>
-            <p class="message">Not registered? <a href="#">Create an account</a></p>
+            <!--<p class="message">Not registered? <a href="#">Create an account</a></p>-->
           </form>
         </div>
         <video id="video" autoplay="autoplay" loop="loop" poster="polina.jpg">
