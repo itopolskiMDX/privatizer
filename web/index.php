@@ -93,9 +93,9 @@ if(!isset($_SESSION['username'])) {
       <div class="login">
     	<h1>Login</h1>
         <form method="POST" action="index.php">
-        	<input type="text" name="username" placeholder="Username" required="required" />
-            <input type="password" name="password" placeholder="Password" required="required" />
-            <button type="submit" class="btn btn-primary btn-block btn-large">Let me in.</button>
+        	<input type="text" name="username" placeholder="Username" required="required" /><br>
+            <input type="password" name="password" placeholder="Password" required="required" /><br>
+            <button type="submit" class="btn btn-primary btn-block btn-large">Sign in</button>
         </form>
     </div>
 
