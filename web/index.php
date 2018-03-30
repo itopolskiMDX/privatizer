@@ -25,7 +25,7 @@ if(!isset($_SESSION['username'])) {
 
       <title>Privatizer - Log-in</title>
 
-      <link rel="stylesheet" href="http://codepen.io/assets/libs/fullpage/jquery-ui.css">
+      <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/smoothness/jquery-ui.css">
 
         <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 
@@ -48,7 +48,7 @@ if(!isset($_SESSION['username'])) {
 
     <!-- <div id="error"><img src="https://dl.dropboxusercontent.com/u/23299152/Delete-icon.png" /> Your caps-lock is on.</div> -->
 
-      <script src="http://codepen.io/assets/libs/fullpage/jquery_and_jqueryui.js"></script>
+      <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
 
     </body>
 
